@@ -1,0 +1,46 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: fff;
+    background: white;
+    background-size: cover;
+    background-color: white;
+}
+
+
+
+.contactus
+{
+    background: white;
+    padding: 40px;
+    width: 400px;
+    margin: auto;
+    margin-top: 170px;
+    height: 300px;
+    border-bottom: 6px solid rgb(230, 227, 227);
+}
+
+form
+{
+    width: 240px;
+    text-align: center;
+}
+
+h2
+{
+    color: black;
+    font-size: 26px;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+a
+{
+    color: rgb(29, 221, 115);
+    text-decoration: blink;
+}
+
+a:hover
+{
+    color: black;
+}
