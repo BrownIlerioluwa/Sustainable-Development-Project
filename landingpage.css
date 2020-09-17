@@ -1,0 +1,240 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #50c878;
+  padding: 0px 5%;
+}
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 5px;
+}
+#logo {
+  color: #006400;
+  font-size: 20px;
+  font-weight: 900;
+  float: left;
+  margin-right: 10px;
+}
+
+.user-cart {
+  float: right;
+  font-size: 17px;
+  border-right: 2px solid white;
+}
+
+.topnav a:hover {
+  background-color: #f5f5f5;
+  color: #50c878;
+}
+
+.topnav a:active {
+  background-color: #009e60;
+  color: white;
+}
+
+.topnav input[type="text"] {
+  /* position: relative; */
+  padding: 6px;
+  border: none;
+  margin-top: 16px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.topnav button {
+  margin-left: -21px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+nav {
+  padding: 5px 5%;
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px groove grey;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: #f5f5f5;
+  color: #50c878;
+}
+
+nav a:active {
+  background-color: #009e60;
+  color: white;
+}
+
+.nav-sign-in {
+  color: #fff;
+  padding: 0.5rem 30px;
+  border: 1px solid #50c878;
+  border-radius: 2px;
+  background-color: #50c878;
+  float: right;
+  margin: 0.5rem 30px;
+  /* margin-right: 30px; */
+}
+
+.intro {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 5rem 5%;
+}
+
+.intro h1 {
+  color: #50c878;
+}
+.intro p {
+  width: 50%;
+}
+.intro a {
+  text-decoration: none;
+  color: #f5f5f5;
+  background-color: #50c878;
+  padding: 8px 15px;
+  border-radius: 2px;
+}
+h2 {
+  text-align: center;
+  color: #50c878;
+  font-size: 2rem;
+  padding: 20px 0px 5px 0px;
+}
+#categories {
+  background-color: #e0ecf8;
+}
+
+.featured-categories {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto auto auto;
+  padding: 1rem 5%;
+}
+
+.featured-categories img {
+  border-radius: 50%;
+}
+
+.recent {
+  padding: 2rem 5%;
+}
+.viewed-info {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+}
+.viewed-image {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto;
+}
+.trending-product {
+  padding: 2rem 5%;
+  background-color: #e0ecf8;
+}
+.trending-info {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+.trending-image {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 2rem;
+}
+
+.all-products {
+  text-decoration: none;
+  color: #f5f5f5;
+  background-color: #50c878;
+  padding: 8px 15px;
+  border-radius: 2px;
+  margin: auto;
+}
+
+#about-us {
+  padding: 2rem 5%;
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+}
+#about-us div {
+  padding: 10px;
+}
+#top-farmers {
+  padding: 2rem 5%;
+}
+.farmers-info {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+.farmers-image {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 2rem;
+}
+.farmers-image > div {
+  padding: 10px;
+}
+footer {
+  font-size: 10px;
+}
+.footer {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #50c878;
+  padding: 2rem 5%;
+}
+.footer > div {
+  padding: 20px 10px;
+}
+.footer > div > p > a,
+.footer > div > h4,
+.footer > div > p {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+.subscribe {
+  text-decoration: none;
+  color: #f5f5f5;
+  background-color: #006400;
+  padding: 5px 15px;
+  font-weight: 900;
+  /* border-radius: 2px; */
+  margin-left: -3px;
+}
+#small-logo {
+  color: #006400;
+  font-size: 20px;
+  font-weight: 900;
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.copyright {
+  padding: 0.5rem 5%;
+  font-size: 15px;
+}

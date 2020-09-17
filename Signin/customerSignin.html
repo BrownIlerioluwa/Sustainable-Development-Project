@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Sign-in</title>
+    <link rel="stylesheet" href="styles1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-list farm">Farmdepo.</li>
+          <li class="nav-list">Home</li>
+          <li class="nav-list">Shop</li>
+          <li class="nav-list">About us</li>
+          <li class="nav-list">Top Farmers</li>
+          <li class="nav-list">Contact us</li>
+          <li class="nav-list"><a class="nav-sign-in" href="#">Sign in</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <form>
+        <div class="container">
+          <h1>Customer Sign in</h1>
+          <label>Email</label>
+          <br />
+          <input
+            class="interaction"
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            required="required"
+          />
+          <br />
+          <label>Password</label>
+          <br />
+          <input
+            class="interaction"
+            type="password"
+            placeholder="Enter your password"
+            name="password"
+            required="required"
+          />
+          <br />
+          <a class="forgot" href="#">Forgot password?</a>
+          <br />
+          <button class="interaction sign-in" type="submit">Sign in</button>
+          <p id="last">
+            Don't have an account? <a class="sign-up" href="#">Sign up</a>
+          </p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
