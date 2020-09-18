@@ -1,6 +1,6 @@
-let myImage = document.getElementById("images");
-let imageArray = ["home.jpg", "home1.jpg", "home2.jpg", "home3.jpg"];
-let imageIndex = 0;
+var myImage = document.getElementById("images");
+var imageArray = ["home.jpg", "home1.jpg", "home2.jpg", "home3.jpg"];
+var imageIndex = 0;
 function slideImage() {
   myImage.setAttribute("src", imageArray[imageIndex]);
   imageIndex++;
